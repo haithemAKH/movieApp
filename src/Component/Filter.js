@@ -1,5 +1,5 @@
 import React from 'react';
-
+// filtrer les filmes par titre et pa etoiles
 const Filter = ({ onTitleChange, onRatingChange }) => {
   return (
     <div className="filter">
@@ -11,6 +11,7 @@ const Filter = ({ onTitleChange, onRatingChange }) => {
           onChange={onTitleChange}
         />
       </div>
+      {/*label pour les filtres par etoiles(stars)*/}
       <div>
         <label htmlFor="rating-filter">Rating:</label>
         <select id="rating-filter" onChange={onRatingChange}>

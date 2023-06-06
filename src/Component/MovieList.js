@@ -1,6 +1,6 @@
 import React from 'react';
 import MovieCard from './MovieCard';
-
+/*maping les film par id*/
 const MovieList = ({ movies }) => {
   return (
     <div className="movie-list">

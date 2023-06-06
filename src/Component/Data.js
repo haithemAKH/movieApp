@@ -1,3 +1,5 @@
+// Data hethi mte3ek si hamza ma3andi manzid fiha hhhhh
+
 export const moviesData = [
     {
         id: 1,

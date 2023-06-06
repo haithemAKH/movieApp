@@ -1,5 +1,5 @@
 import React from 'react';
-
+// la carte de chaque film
 const MovieCard = ({ movie }) => {
   return (
     <div className="card">

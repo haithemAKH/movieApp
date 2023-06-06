@@ -4,6 +4,8 @@ import Filter from './Component/Filter';
 import { moviesData } from './Component/Data';
 import './App.css';
 
+//utilisation du state {usestate et useeffect}pour la passation du data entre les fichier
+//utilisation du props pour envoyer data du parent au child
 
 const App = () => {
   const [movies, setMovies] = useState([]);
